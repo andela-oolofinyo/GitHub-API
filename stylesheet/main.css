@@ -1,0 +1,97 @@
+body{
+  margin: 0 auto;
+  background:url('../img/nightstreet.png');
+  font-family: 'Josefin Slab', serif;
+}
+
+  /*
+======================================================
+
+              HEADER TEXT
+
+======================================================
+*/
+
+#headingText {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 180%;
+  line-height: 0.3em;
+  color: #0f95d3;
+  font-size: 3em;
+  font-family: 'Josefin Slab', serif;
+}
+
+/*
+======================================================
+
+              SEARCH BAR
+
+======================================================*/
+
+#searchBar{
+  margin: 0 auto;
+  text-align: center;
+  margin: 10% 0 10% 0;
+}
+
+
+#search{
+  height: 2.9em;
+  position: relative;
+  width: 40%;
+  font-size: 1.3em;
+  font-family: 'Josefin Slab', serif;
+  font-weight: lighter;
+  border: 1px solid #dddddd;
+  background: #f4f4f4;
+}
+
+#search:focus{
+  background:#188bc4;
+  color: black;
+  border:1px solid #0f95d3;
+}
+
+#submit{
+  width: 8%;
+  height: 2.9em;
+  background:#f4f4f4;
+  border-radius: 2%;
+  position: relative;
+  color: #0f95d3;
+  font-size: 1.3em;
+  font-family: 'Josefin Slab', serif;
+  border: 2px solid #4ba947;
+}
+
+#submit:hover{
+  background:#188bc4;
+  color: #e6e6e6;
+  border: 2px solid #4ba947;
+  border-radius: 8px;
+}
+
+#submit:focus{
+  border: none;
+}
+
+
+
+
+
+/*
+======================================================
+
+              RESULT FORM
+
+======================================================*/
+ul li{
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 1em 1em auto 1em;
+  color: white;
+  background:#0f95d3;
+  border:1px solid #4ba947;
+}
